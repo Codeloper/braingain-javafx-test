@@ -28,7 +28,8 @@ public class Controller extends Application {
         VBox root = new VBox();
         root.getChildren().add(myWebView);
 
-        Scene scene = new Scene(root, 1300, 1500);//800 500
+        Scene scene = new Scene(root, 800, 500);//800 500
+
         stage.setScene(scene);
 
         stage.show();

@@ -14,7 +14,7 @@ public class Main extends Application {
         primaryStage.setTitle("Braingain");
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.setHeight(700);
-        primaryStage.setWidth(1300);
+        primaryStage.setWidth(1500);
 
         primaryStage.show();
         Controller controller = new Controller();
